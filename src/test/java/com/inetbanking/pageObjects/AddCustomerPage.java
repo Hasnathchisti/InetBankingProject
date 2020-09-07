@@ -12,7 +12,7 @@ public class AddCustomerPage {
 	WebDriver ldriver;
 	
 	public AddCustomerPage(WebDriver rdriver) {
-		ldriver=rdriver;
+		ldriver=rdriver;//Initializing driver
 		PageFactory.initElements(rdriver, this);
 	}
 	
