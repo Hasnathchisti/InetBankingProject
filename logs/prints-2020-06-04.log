@@ -1,0 +1,6 @@
+12:47:24.637 [main] INFO  com.inetbanking.testCases.BaseClass - URL opened
+12:47:59.454 [main] INFO  com.inetbanking.testCases.BaseClass - User name is provided
+12:47:59.591 [main] INFO  com.inetbanking.testCases.BaseClass - Passsword is provided
+12:48:15.537 [main] INFO  com.inetbanking.testCases.BaseClass - providing customer details....
+12:48:24.369 [main] INFO  com.inetbanking.testCases.BaseClass - validation started....
+17:10:08.267 [main] INFO  com.inetbanking.testCases.BaseClass - URL opened
