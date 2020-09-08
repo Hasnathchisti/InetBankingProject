@@ -20,7 +20,7 @@ public class TC_LoginTest extends BaseClass {
 		
 		logger.info("URL opened");
 		
-		//System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
@@ -29,7 +29,7 @@ public class TC_LoginTest extends BaseClass {
 	
 		lp.clickSubmit();
 		
-		System.out.println(driver.getTitle());
+		//System.out.println(driver.getTitle());
 		
 		if(driver.getTitle().equals("Guru99 Bank Home Page")) {
 			Assert.assertTrue(true);
